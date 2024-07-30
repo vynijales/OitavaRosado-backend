@@ -20,7 +20,7 @@ public class Medico {
     private String num_conselho;
     private String cbo;
     private String cpf;
-    private String lagradouro;
+    private String logradouro;
     private String bairro;
     private String cidade;
     private String uf;
@@ -39,7 +39,7 @@ public class Medico {
         this.num_conselho = data.num_conselho();
         this.cbo = data.cbo();
         this.cpf = data.cpf();
-        this.lagradouro = data.lagradouro();
+        this.logradouro = data.logradouro();
         this.bairro = data.bairro();
         this.cidade = data.cidade();
         this.uf = data.uf();
