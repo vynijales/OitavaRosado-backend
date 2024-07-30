@@ -1,4 +1,4 @@
-package com.oitava_rosado.oitava_rosado.backend;
+package com.oitavarosado;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

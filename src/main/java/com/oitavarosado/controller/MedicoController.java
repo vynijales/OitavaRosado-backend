@@ -1,9 +1,9 @@
-package com.oitava_rosado.oitava_rosado.backend.controller;
+package com.oitavarosado.controller;
 
-import com.oitava_rosado.oitava_rosado.backend.medico.Medico;
-import com.oitava_rosado.oitava_rosado.backend.medico.MedicoRepository;
-import com.oitava_rosado.oitava_rosado.backend.medico.MedicoRequestDTO;
-import com.oitava_rosado.oitava_rosado.backend.medico.MedicoResponseDTO;
+import com.oitavarosado.medico.Medico;
+import com.oitavarosado.medico.MedicoRepository;
+import com.oitavarosado.medico.MedicoRequestDTO;
+import com.oitavarosado.medico.MedicoResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

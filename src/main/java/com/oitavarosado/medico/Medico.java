@@ -1,6 +1,5 @@
-package com.oitava_rosado.oitava_rosado.backend.medico;
+package com.oitavarosado.medico;
 
-import com.oitava_rosado.oitava_rosado.backend.paciente.PacienteRequestDTO;
 import jakarta.persistence.*;
 import lombok.*;
 

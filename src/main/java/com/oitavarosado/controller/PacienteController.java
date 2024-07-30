@@ -1,9 +1,9 @@
-package com.oitava_rosado.oitava_rosado.backend.controller;
+package com.oitavarosado.controller;
 
-import com.oitava_rosado.oitava_rosado.backend.paciente.Paciente;
-import com.oitava_rosado.oitava_rosado.backend.paciente.PacienteRepository;
-import com.oitava_rosado.oitava_rosado.backend.paciente.PacienteRequestDTO;
-import com.oitava_rosado.oitava_rosado.backend.paciente.PacienteResponseDTO;
+import com.oitavarosado.paciente.Paciente;
+import com.oitavarosado.paciente.PacienteRepository;
+import com.oitavarosado.paciente.PacienteRequestDTO;
+import com.oitavarosado.paciente.PacienteResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,12 +11,13 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("paciente")
+@RequestMapping("pacientes")
 public class PacienteController {
 
     @Autowired
     private PacienteRepository repository;
 
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping
     public List<PacienteResponseDTO> getAll() {
         List<PacienteResponseDTO> pacienteList = repository.findAll().stream().map(PacienteResponseDTO::new).toList();

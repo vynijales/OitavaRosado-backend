@@ -1,4 +1,4 @@
-package com.oitava_rosado.oitava_rosado.backend;
+package com.oitavarosado;
 
 //import io.github.cdimascio.dotenv.Dotenv;
 

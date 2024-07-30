@@ -11,7 +11,7 @@
 	<groupId>com.oitavarosado</groupId>
 	<artifactId>oitavarosado-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Oitava Rosado Backend</name>
+	<name>Oitava Rosado</name>
 	<description>Sistema Web para gestão de atendimentos médicos</description>
 	<url/>
 	<licenses>
@@ -60,12 +60,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>io.github.cdimascio</groupId>
-			<artifactId>java-dotenv</artifactId>
-			<version>5.2.2</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>

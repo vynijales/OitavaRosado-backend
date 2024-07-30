@@ -1,4 +1,4 @@
-package com.oitava_rosado.oitava_rosado.backend.medico;
+package com.oitavarosado.medico;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
