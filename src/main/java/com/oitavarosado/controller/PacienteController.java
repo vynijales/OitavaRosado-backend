@@ -25,6 +25,14 @@ public class PacienteController {
     }
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping("/{id}")
+    public PacienteResponseDTO get(@PathVariable Long id) {
+        Optional<Paciente> paciente = repository.findById(id);
+        return paciente.map(PacienteResponseDTO::new).orElse(null);
+    }
+
+
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
     public void savePaciente(@RequestBody PacienteRequestDTO data) {
         Paciente pacienteData = new Paciente(data);
